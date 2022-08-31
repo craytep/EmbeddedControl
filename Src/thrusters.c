@@ -21,13 +21,13 @@ uint8_t resizeFloatToUint8(float input);
 void thrustersInit()
 {
 	rThrusters[Lag1st].address = 1;
-	rThrusters[Lag2nd].address = 2;
-	rThrusters[MarshLEFT].address = 3;
-	rThrusters[MarshRIGHT].address = 4;
-	rThrusters[VertBACK].address 	= 5;
+	rThrusters[Lag2nd].address = 7;
+	rThrusters[MarshLEFT].address = 2;
+	rThrusters[MarshRIGHT].address = 3;
+	rThrusters[VertBACK].address 	= 4;
 	rThrusters[VertLEFT].address 	= 6;
-	rThrusters[VertRIGHT].address 	= 7;
-	rThrusters[Unused].desiredSpeed = 8;
+	rThrusters[VertRIGHT].address 	= 8;
+	rThrusters[Unused].desiredSpeed = 5;
 
 	rThrusters[MarshLEFT].inverse = false;
 	rThrusters[MarshRIGHT].inverse = false;
